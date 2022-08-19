@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.descricao{
+    width: 60%;
+}
+
+.descricao .logo{
+    margin-bottom: 10px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.contato .list{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.list .list-item{
+    padding: 10px;
+}
+
+.contato .social{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+}
+
+
+

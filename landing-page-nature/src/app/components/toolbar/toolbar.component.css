@@ -1,0 +1,28 @@
+.container-toolbar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.logo{
+    margin-bottom: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu .menu-item{
+    margin: 0 0 10px 10px;
+    font-size: medium;
+    border-color: transparent;
+}
+
+.menu .menu-item:hover{
+    border-bottom-color: blue;
+}
+
